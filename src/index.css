@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.locus__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+  overflow-y: auto;
+
+}
+.locus__suggestions-listL, li:hover {
+		background-color:#aaa;
+}
+.locus__suggestion-highlighted{
+	 background-color: #ddd;
+}
+.container {
+	position: absolute;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h3{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;	
+}
+.locus-Search__input{
+	width: 500px;
+    height: 30px;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.locus-autosuggest-container--open{
+	display: block;
+	width: 540px;
+	z-index: 2;
+	position: absolute;
+	    max-height: 500px;
+		 border:	1px solid #aaa;
+  overflow-y: auto;
+}
